@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "330141196835",
+    "firebase_url": "https://jurnal-kelas.firebaseio.com",
+    "project_id": "jurnal-kelas",
+    "storage_bucket": "jurnal-kelas.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:330141196835:android:47e765f98e41b4b0da0796",
+        "android_client_info": {
+          "package_name": "com.app.jurnalkelas"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "330141196835-72resnepnk0rh6gjj6kfa6i984pnm17a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCzM2-SqYoNXg02mBrvGWVAa3tO6fZUU_Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "330141196835-72resnepnk0rh6gjj6kfa6i984pnm17a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

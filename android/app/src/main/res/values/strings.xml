@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Jurnal Kelas</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Beranda</string>
+    <string name="menu_guru">Data Guru</string>
+    <string name="menu_jadwal">Jadwal Pelajaran</string>
+    <string name="menu_jurnal_kelas">Jurnal Kelas</string>
+
+    <string name="home_second">Home Second</string>
+    <string name="menu_logout">Log Out</string>
+    <string name="mengambil_data">Mengambil data…</string>
+    <string name="status_prompt">Pilih Status</string>
+    <string name="menu_rekapitulasi_kehadiran">Rekapitulasi Kehadiran</string>
+    <string name="menu_validasi_jurnal">Validasi Jurnal</string>
+</resources>

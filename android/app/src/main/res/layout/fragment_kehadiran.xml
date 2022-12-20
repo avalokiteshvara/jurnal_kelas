@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.swiperefreshlayout.widget.SwipeRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/kehadiran_swipeContainer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_yellow">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_yellow"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:orientation="vertical"
+        android:padding="15dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="10dp">
+            <EditText
+                android:id="@+id/etKehadiran_Tahun"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="4dp"
+                android:ems="10"
+                android:hint="Tahun"
+                android:inputType="textPersonName" />
+            <Spinner
+                android:id="@+id/spKehadiran_bulan"
+                android:layout_width="match_parent"
+                android:layout_height="36dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="4dp"
+                android:entries="@array/bulan_arrays"
+                android:fontFamily="monospace"
+                android:prompt="@string/status_prompt"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+            <Button
+                android:id="@+id/btnSubmit"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="15dp"
+                android:background="#F5DEB3"
+                android:fontFamily="monospace"
+                android:text="TAMPILKAN"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycler_view_kehadiran_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="25dp"
+            android:orientation="vertical" />
+    </LinearLayout>
+</androidx.swiperefreshlayout.widget.SwipeRefreshLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_data_guru"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/menu_guru" />
+        <item
+            android:id="@+id/nav_data_jadwal"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menu_jadwal" />
+        <item
+            android:id="@+id/nav_jurnal_kelas"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menu_jurnal_kelas" />
+
+        <item
+            android:id="@+id/nav_validasi_jurnal"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menu_validasi_jurnal" />
+
+        <item
+            android:id="@+id/nav_rekapitulasi_kehadiran"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menu_rekapitulasi_kehadiran" />
+
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menu_logout" />
+    </group>
+</menu>

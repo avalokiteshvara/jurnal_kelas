@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="status_arrays" >
+        <item>HADIR</item>
+        <item>DIGANTIKAN</item>
+        <item>KOSONG</item>
+    </string-array>
+
+    <string-array name="bulan_arrays" >
+        <item>JANUARI</item>
+        <item>FEBRUARI</item>
+        <item>MARET</item>
+        <item>APRIL</item>
+        <item>MEI</item>
+        <item>JUNI</item>
+        <item>JULI</item>
+        <item>AGUSTUS</item>
+        <item>SEPTEMBER</item>
+        <item>OKTOBER</item>
+        <item>NOVEMBER</item>
+        <item>DESEMBER</item>
+    </string-array>
+
+</resources>

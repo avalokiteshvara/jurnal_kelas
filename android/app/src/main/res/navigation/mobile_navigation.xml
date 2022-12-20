@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.app.jurnalkelas.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home"/>
+
+    <fragment
+        android:id="@+id/nav_data_guru"
+        android:name="com.app.jurnalkelas.ui.guru.GuruFragment"
+        android:label="@string/menu_guru"
+        tools:layout="@layout/fragment_guru" />
+
+    <fragment
+        android:id="@+id/nav_data_jadwal"
+        android:name="com.app.jurnalkelas.ui.jadwal.JadwalFragment"
+        android:label="@string/menu_jadwal"
+        tools:layout="@layout/fragment_jadwal" />
+
+    <fragment
+        android:id="@+id/nav_jurnal_kelas"
+        android:name="com.app.jurnalkelas.ui.jurnal.JurnalFragment"
+        android:label="JurnalFragment"
+        tools:layout="@layout/fragment_jurnal"/>
+
+    <fragment
+        android:id="@+id/nav_rekapitulasi_kehadiran"
+        android:name="com.app.jurnalkelas.ui.kehadiran.KehadiranFragment"
+        android:label="KehadiranFragment"
+        tools:layout="@layout/fragment_kehadiran"/>
+
+    <fragment
+        android:id="@+id/nav_validasi_jurnal"
+        android:name="com.app.jurnalkelas.ui.validasijurnal.ValidasiJurnalFragment"
+        android:label="validasiJurnalFragment"
+        tools:layout="@layout/fragment_validasi_jurnal"/>
+
+
+    <fragment
+        android:id="@+id/nav_logout"
+        android:name="com.app.jurnalkelas.ui.logout.LogoutFragment"
+        android:label="@string/menu_logout"
+        tools:layout="@layout/fragment_logout" />
+
+
+</navigation>
